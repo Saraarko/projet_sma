@@ -1,0 +1,289 @@
+================================================================================
+SRUU - QUICK COMMAND REFERENCE
+================================================================================
+
+OPTION 1: WINDOWS (EASIEST)
+================================================================================
+
+Step 1: Open Command Prompt
+  - Press: Win + R
+  - Type: cmd
+  - Press: Enter
+
+Step 2: Navigate to Project
+  cd C:\Users\Administrator\Desktop\projet_sma
+
+Step 3: Compile (First Time Only - Takes 45 seconds)
+  BUILD.bat
+
+Step 4: Run
+  RUN.bat
+
+  OR manually:
+  java -jar target\sruu-emergency-system-1.0.0.jar
+
+Step 5: Stop
+  Press: Ctrl + C
+
+Step 6: View Report
+  dir logs\
+  type logs\incident_report_*.json
+
+
+OPTION 2: COMMAND LINE (MANUAL)
+================================================================================
+
+Compile:
+  mvn clean package -DskipTests
+
+Run:
+  java -jar target\sruu-emergency-system-1.0.0.jar
+
+Clean Build:
+  mvn clean
+
+
+OPTION 3: LINUX/MAC
+================================================================================
+
+Navigate:
+  cd /c/Users/Administrator/Desktop/projet_sma
+
+Make scripts executable:
+  chmod +x BUILD.sh
+
+Compile:
+  ./BUILD.sh
+  OR
+  mvn clean package -DskipTests
+
+Run:
+  java -jar target/sruu-emergency-system-1.0.0.jar
+
+View Report:
+  cat logs/incident_report_*.json | python -m json.tool
+
+
+VERIFY PREREQUISITES
+================================================================================
+
+Check Java:
+  java -version
+  Expected: Java 11 or higher
+
+Check Maven:
+  mvn --version
+  Expected: Maven 3.6 or higher
+
+Download Java:
+  https://www.oracle.com/java/technologies/downloads/
+
+Download Maven:
+  https://maven.apache.org/download.cgi
+
+
+EXPECTED COMPILATION OUTPUT
+================================================================================
+
+[INFO] Building SRUU - Urban Emergency Response System 1.0.0
+[INFO] Building jar: target\sruu-emergency-system-1.0.0.jar
+[INFO] BUILD SUCCESS
+[INFO] Total time: 45.234 s
+
+Result: target\sruu-emergency-system-1.0.0.jar (45 MB)
+
+
+EXPECTED RUNTIME OUTPUT (First 10 seconds)
+================================================================================
+
+[Dispatcher] Agent initialized
+[Sensor-1] Agent initialized
+[Sensor-2] Agent initialized
+[Sensor-3] Agent initialized
+[Ambulance-1] Agent initialized
+[Ambulance-2] Agent initialized
+[FireTruck-1] Agent initialized
+[FireTruck-2] Agent initialized
+[Police-1] Agent initialized
+[Police-2] Agent initialized
+[BiohazardCU-1] Agent initialized
+[MedicalCoordinator] Agent initialized
+[TrafficController] Agent initialized
+[Logger] Agent initialized
+
+[LAUNCHER] All agents started successfully!
+[LAUNCHER] System running... (Press Ctrl+C to stop)
+
+[Sensor-1] Incident reported: Incident[...FIRE|severity:8|...]
+[Dispatcher] Received incident: Incident[...FIRE|...
+[Dispatcher] Found 2 units for FIRE
+[FireTruck-1] Sent proposal for ... at distance 15.0
+[Dispatcher] Selected unit: FireTruck-1 with utility: 64.49
+[FireTruck-1] Accepting incident: ...
+[FireTruck-1] Arrived at incident ...
+[FireTruck-1] Fighting fire... water: 85
+...
+
+
+VIEW REPORTS
+================================================================================
+
+Windows Command Prompt:
+  dir logs\
+  type logs\incident_report_*.json
+
+Windows PowerShell:
+  Get-ChildItem logs\
+  Get-Content logs\incident_report_*.json
+
+Linux/Mac:
+  ls -lh logs/
+  cat logs/incident_report_*.json
+
+Pretty Print (Any OS):
+  python -m json.tool < logs\incident_report_*.json
+  OR
+  python3 -m json.tool < logs/incident_report_*.json
+
+
+COMMON ISSUES & FIXES
+================================================================================
+
+"java is not recognized"
+  → Install Java: https://www.oracle.com/java/technologies/downloads/
+
+"mvn is not recognized"
+  → Install Maven: https://maven.apache.org/download.cgi
+  → Add to PATH (see WINDOWS_RUN_GUIDE.md)
+
+"Port 8888 already in use"
+  → Change port in EmergencySystemLauncher.java (line: setParameter(Profile.MAIN_PORT, "8889"))
+
+"No incidents generated"
+  → Wait 30+ seconds (generation is probabilistic)
+  → Edit SensorAgent.java: detectionProbability = 0.8
+
+"BUILD FAILED"
+  → Check: java -version (need 11+)
+  → Check: mvn --version (need 3.6+)
+  → Internet connection required (first build downloads ~100MB)
+
+"No reports found"
+  → Check logs directory exists: mkdir logs
+  → Run system for 30+ seconds before checking
+
+
+TESTING CHECKLIST
+================================================================================
+
+After running, verify:
+  [ ] 14 agents initialized (all names shown)
+  [ ] No errors in output
+  [ ] 3+ incidents reported
+  [ ] Dispatcher receiving incidents
+  [ ] Units sending proposals
+  [ ] Units being assigned
+  [ ] Units moving toward incidents
+  [ ] Fire truck water depleting (if fire incident)
+  [ ] Water depletion triggering abort (if applicable)
+  [ ] Alternative unit being assigned
+  [ ] Units completing incidents
+  [ ] Reports generated in logs/ directory
+  [ ] JSON report contains incident details
+  [ ] Response times calculated
+  [ ] No crashes
+  [ ] Clean shutdown (Ctrl+C)
+
+
+TIMELINE
+================================================================================
+
+0-5 seconds:   Agents initializing
+5-10 seconds:  Sensors generating incidents
+10-25 seconds: Dispatcher receiving and assigning units
+25-50 seconds: Units moving to incidents
+50-65 seconds: Units handling incidents
+65-75 seconds: Units returning to base
+75+ seconds:   Reports generated
+
+
+FILE LOCATIONS
+================================================================================
+
+Project Root:
+  C:\Users\Administrator\Desktop\projet_sma\
+
+Source Code:
+  C:\Users\Administrator\Desktop\projet_sma\src\main\java\fr\umbb\sma\
+
+Compiled JAR:
+  C:\Users\Administrator\Desktop\projet_sma\target\sruu-emergency-system-1.0.0.jar
+
+Reports:
+  C:\Users\Administrator\Desktop\projet_sma\logs\incident_report_*.json
+
+Documentation:
+  C:\Users\Administrator\Desktop\projet_sma\TECHNICAL_REPORT.md
+  C:\Users\Administrator\Desktop\projet_sma\README.md
+  C:\Users\Administrator\Desktop\projet_sma\WINDOWS_RUN_GUIDE.md
+
+
+IMPORTANT NOTES
+================================================================================
+
+✓ First build takes 45 seconds (downloads ~100MB dependencies)
+✓ Subsequent builds take 5-10 seconds
+✓ Internet connection required for first build
+✓ Simulation runs for ~2-3 minutes (generates multiple incidents)
+✓ Reports auto-generate in logs/ directory
+✓ Safe to Ctrl+C to stop - system shuts down cleanly
+✓ Can run multiple times - JAR already compiled
+✓ Edit agent parameters to test different scenarios
+
+
+FREQUENTLY USED COMMANDS
+================================================================================
+
+Clean everything and rebuild from scratch:
+  mvn clean package -DskipTests
+
+Just run the pre-built JAR:
+  java -jar target\sruu-emergency-system-1.0.0.jar
+
+Recompile only (skip re-downloading dependencies):
+  mvn package -DskipTests
+
+Check all tests pass:
+  mvn test
+
+View project structure:
+  tree /F
+  (Windows)
+  OR
+  find . -type f
+  (Linux/Mac)
+
+
+GETTING HELP
+================================================================================
+
+Detailed walkthrough:
+  Read: WINDOWS_RUN_GUIDE.md
+
+Understand the design:
+  Read: TECHNICAL_REPORT.md
+
+Quick reference:
+  Read: README.md or QUICK_START.md
+
+Presentation guide:
+  Read: PRESENTATION_OUTLINE.md
+
+File navigation:
+  Read: INDEX.md
+
+
+================================================================================
+That's it! You're ready to run the system.
+Just copy-paste the commands from OPTION 1 (Windows) above.
+================================================================================
