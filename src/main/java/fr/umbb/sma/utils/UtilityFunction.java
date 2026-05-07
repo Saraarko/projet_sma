@@ -45,13 +45,6 @@ public class UtilityFunction {
                 return proposal.getUnitType().contains("FireTruck") ? 100 :
                        proposal.getUnitType().contains("Police") ? 50 : 0;
 
-            case BIOHAZARD:
-                return proposal.getUnitType().contains("BiohazardUnit") ? 100 : 0;
-
-            case CRYOGENIC_LEAK:
-                return proposal.getUnitType().contains("BiohazardUnit") ? 100 :
-                       proposal.getUnitType().contains("FireTruck") ? 50 : 0;
-
             default:
                 return 0;
         }

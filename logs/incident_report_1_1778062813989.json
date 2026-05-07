@@ -1,0 +1,422 @@
+{
+  "incidents": [
+    {
+      "id": "Sensor-3_1778062790001",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 3,
+      "locationX": 44,
+      "locationY": 52,
+      "reportedAt": "11:19:50.0053733",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062786499",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 9,
+      "locationX": 71,
+      "locationY": 72,
+      "reportedAt": "11:19:46.5019941",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062801515",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 1,
+      "locationX": 78,
+      "locationY": 67,
+      "reportedAt": "11:20:01.5172939",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062798076",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 7,
+      "locationX": 12,
+      "locationY": 29,
+      "reportedAt": "11:19:58.0797835",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062796510",
+      "type": "FIRE",
+      "severity": 5,
+      "locationX": 77,
+      "locationY": 65,
+      "reportedAt": "11:19:56.5121873",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062812120",
+      "type": "MEDICAL",
+      "severity": 2,
+      "locationX": 22,
+      "locationY": 34,
+      "reportedAt": "11:20:12.1222465",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062811025",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 55,
+      "locationY": 40,
+      "reportedAt": "11:20:11.0274687",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062792070",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 6,
+      "locationX": 11,
+      "locationY": 35,
+      "reportedAt": "11:19:52.0724742",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062814026",
+      "type": "FIRE",
+      "severity": 4,
+      "locationX": 57,
+      "locationY": 48,
+      "reportedAt": "11:20:14.0320152",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062809023",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 1,
+      "locationX": 79,
+      "locationY": 60,
+      "reportedAt": "11:20:09.0250475",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062808022",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 7,
+      "locationX": 56,
+      "locationY": 41,
+      "reportedAt": "11:20:08.0242048",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062810114",
+      "type": "FIRE",
+      "severity": 10,
+      "locationX": 17,
+      "locationY": 27,
+      "reportedAt": "11:20:10.1198601",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062786999",
+      "type": "MEDICAL",
+      "severity": 2,
+      "locationX": 50,
+      "locationY": 46,
+      "reportedAt": "11:19:47.0030213",
+      "assignedUnit": "Ambulance-1",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": "Sensor-1_1778062806085",
+      "type": "MEDICAL",
+      "severity": 3,
+      "locationX": 15,
+      "locationY": 24,
+      "reportedAt": "11:20:06.0903116",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062804083",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 29,
+      "locationY": 32,
+      "reportedAt": "11:20:04.0845266",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062802081",
+      "type": "FIRE",
+      "severity": 2,
+      "locationX": 26,
+      "locationY": 28,
+      "reportedAt": "11:20:02.0842069",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062791506",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 7,
+      "locationX": 61,
+      "locationY": 75,
+      "reportedAt": "11:19:51.5120919",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062808090",
+      "type": "MEDICAL",
+      "severity": 7,
+      "locationX": 22,
+      "locationY": 39,
+      "reportedAt": "11:20:08.1292978",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062793006",
+      "type": "FIRE",
+      "severity": 1,
+      "locationX": 44,
+      "locationY": 45,
+      "reportedAt": "11:19:53.017475",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062796014",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 51,
+      "locationY": 50,
+      "reportedAt": "11:19:56.0157132",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062811525",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 75,
+      "locationY": 64,
+      "reportedAt": "11:20:11.5276467",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062805020",
+      "type": "FIRE",
+      "severity": 8,
+      "locationX": 51,
+      "locationY": 41,
+      "reportedAt": "11:20:05.0219552",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062800079",
+      "type": "MEDICAL",
+      "severity": 4,
+      "locationX": 28,
+      "locationY": 35,
+      "reportedAt": "11:20:00.0824655",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062788066",
+      "type": "FIRE",
+      "severity": 1,
+      "locationX": 14,
+      "locationY": 25,
+      "reportedAt": "11:19:48.0686884",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778062786020",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 3,
+      "locationX": 19,
+      "locationY": 26,
+      "reportedAt": "11:19:46.093579",
+      "assignedUnit": "FireTruck-1",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": "Sensor-2_1778062789002",
+      "type": "MEDICAL",
+      "severity": 3,
+      "locationX": 76,
+      "locationY": 76,
+      "reportedAt": "11:19:49.0054252",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778062802017",
+      "type": "MEDICAL",
+      "severity": 1,
+      "locationX": 49,
+      "locationY": 59,
+      "reportedAt": "11:20:02.0192782",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778062806521",
+      "type": "MEDICAL",
+      "severity": 6,
+      "locationX": 77,
+      "locationY": 75,
+      "reportedAt": "11:20:06.5226949",
+      "assignedUnit": "",
+      "status": "PENDING"
+    }
+  ],
+  "statistics": {
+    "total": 28,
+    "completed": 0,
+    "assigned": 2,
+    "pending": 26,
+    "aborted": 0,
+    "avgResponseTimeSeconds": 0
+  },
+  "agents": [
+    {
+      "name": "FireTruck-2",
+      "type": "FireTruck",
+      "status": "IDLE",
+      "x": 75,
+      "y": 25,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "FireTruck-1",
+      "type": "FireTruck",
+      "status": "RESPONDING",
+      "x": 25,
+      "y": 25,
+      "lastUpdate": 1778062786300
+    },
+    {
+      "name": "MedicalCoordinator",
+      "type": "MedicalCoordinator",
+      "status": "IDLE",
+      "x": 50,
+      "y": 10,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Sensor-1",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 20,
+      "y": 30,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Sensor-2",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 70,
+      "y": 70,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Dispatcher",
+      "type": "Dispatcher",
+      "status": "IDLE",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Police-2",
+      "type": "Police",
+      "status": "IDLE",
+      "x": 25,
+      "y": 75,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Police-1",
+      "type": "Police",
+      "status": "IDLE",
+      "x": 75,
+      "y": 75,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Sensor-3",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "Ambulance-1",
+      "type": "Ambulance",
+      "status": "RESPONDING",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778062787033
+    },
+    {
+      "name": "Ambulance-2",
+      "type": "Ambulance",
+      "status": "IDLE",
+      "x": 40,
+      "y": 80,
+      "lastUpdate": 1778062783829
+    },
+    {
+      "name": "TrafficController",
+      "type": "TrafficController",
+      "status": "IDLE",
+      "x": 10,
+      "y": 50,
+      "lastUpdate": 1778062783829
+    }
+  ],
+  "recentEvents": [
+    "[11:19:46.1050035] INCIDENT_REPORTED: Incident[Sensor-1_1778062786020|STRUCTURAL_COLLAPSE|severity:3|(19,26)]",
+    "[11:19:46.3000357] INCIDENT_ASSIGNED: Sensor-1_1778062786020 -\u003e FireTruck-1 (response time: 0.21 sec)",
+    "[11:19:46.5019941] INCIDENT_REPORTED: Incident[Sensor-2_1778062786499|STRUCTURAL_COLLAPSE|severity:9|(71,72)]",
+    "[11:19:47.0030213] INCIDENT_REPORTED: Incident[Sensor-3_1778062786999|MEDICAL|severity:2|(50,46)]",
+    "[11:19:47.0331354] INCIDENT_ASSIGNED: Sensor-3_1778062786999 -\u003e Ambulance-1 (response time: 0.03 sec)",
+    "[11:19:48.0686884] INCIDENT_REPORTED: Incident[Sensor-1_1778062788066|FIRE|severity:1|(14,25)]",
+    "[11:19:49.0070781] INCIDENT_REPORTED: Incident[Sensor-2_1778062789002|MEDICAL|severity:3|(76,76)]",
+    "[11:19:50.0069375] INCIDENT_REPORTED: Incident[Sensor-3_1778062790001|STRUCTURAL_COLLAPSE|severity:3|(44,52)]",
+    "[11:19:51.5126276] INCIDENT_REPORTED: Incident[Sensor-2_1778062791506|STRUCTURAL_COLLAPSE|severity:7|(61,75)]",
+    "[11:19:52.0724742] INCIDENT_REPORTED: Incident[Sensor-1_1778062792070|STRUCTURAL_COLLAPSE|severity:6|(11,35)]",
+    "[11:19:53.017475] INCIDENT_REPORTED: Incident[Sensor-3_1778062793006|FIRE|severity:1|(44,45)]",
+    "[11:19:56.0157132] INCIDENT_REPORTED: Incident[Sensor-3_1778062796014|STRUCTURAL_COLLAPSE|severity:4|(51,50)]",
+    "[11:19:56.5127571] INCIDENT_REPORTED: Incident[Sensor-2_1778062796510|FIRE|severity:5|(77,65)]",
+    "[11:19:58.0808087] INCIDENT_REPORTED: Incident[Sensor-1_1778062798076|STRUCTURAL_COLLAPSE|severity:7|(12,29)]",
+    "[11:20:00.0835025] INCIDENT_REPORTED: Incident[Sensor-1_1778062800079|MEDICAL|severity:4|(28,35)]",
+    "[11:20:01.5182913] INCIDENT_REPORTED: Incident[Sensor-2_1778062801515|STRUCTURAL_COLLAPSE|severity:1|(78,67)]",
+    "[11:20:02.0192782] INCIDENT_REPORTED: Incident[Sensor-3_1778062802017|MEDICAL|severity:1|(49,59)]",
+    "[11:20:02.0842069] INCIDENT_REPORTED: Incident[Sensor-1_1778062802081|FIRE|severity:2|(26,28)]",
+    "[11:20:04.0855229] INCIDENT_REPORTED: Incident[Sensor-1_1778062804083|STRUCTURAL_COLLAPSE|severity:4|(29,32)]",
+    "[11:20:05.0219552] INCIDENT_REPORTED: Incident[Sensor-3_1778062805020|FIRE|severity:8|(51,41)]",
+    "[11:20:06.0903116] INCIDENT_REPORTED: Incident[Sensor-1_1778062806085|MEDICAL|severity:3|(15,24)]",
+    "[11:20:06.5226949] INCIDENT_REPORTED: Incident[Sensor-2_1778062806521|MEDICAL|severity:6|(77,75)]",
+    "[11:20:08.0242048] INCIDENT_REPORTED: Incident[Sensor-3_1778062808022|STRUCTURAL_COLLAPSE|severity:7|(56,41)]",
+    "[11:20:08.1303481] INCIDENT_REPORTED: Incident[Sensor-1_1778062808090|MEDICAL|severity:7|(22,39)]",
+    "[11:20:09.0250475] INCIDENT_REPORTED: Incident[Sensor-2_1778062809023|STRUCTURAL_COLLAPSE|severity:1|(79,60)]",
+    "[11:20:10.1214244] INCIDENT_REPORTED: Incident[Sensor-1_1778062810114|FIRE|severity:10|(17,27)]",
+    "[11:20:11.0274687] INCIDENT_REPORTED: Incident[Sensor-3_1778062811025|STRUCTURAL_COLLAPSE|severity:4|(55,40)]",
+    "[11:20:11.5276467] INCIDENT_REPORTED: Incident[Sensor-2_1778062811525|STRUCTURAL_COLLAPSE|severity:4|(75,64)]",
+    "[11:20:12.1222465] INCIDENT_REPORTED: Incident[Sensor-1_1778062812120|MEDICAL|severity:2|(22,34)]",
+    "[11:20:14.0330405] INCIDENT_REPORTED: Incident[Sensor-3_1778062814026|FIRE|severity:4|(57,48)]"
+  ]
+}

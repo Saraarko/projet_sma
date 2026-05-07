@@ -35,7 +35,7 @@ public class EmergencySystemLauncher {
             log.registerAgent("FireTruck-2", "FireTruck", 75, 25);
             log.registerAgent("Police-1", "Police", 75, 75);
             log.registerAgent("Police-2", "Police", 25, 75);
-            log.registerAgent("BiohazardCU-1", "Biohazard", 50, 75);
+
             log.registerAgent("MedicalCoordinator", "MedicalCoordinator", 50, 10);
             log.registerAgent("TrafficController", "TrafficController", 10, 50);
 
@@ -87,10 +87,7 @@ public class EmergencySystemLauncher {
                 "fr.umbb.sma.agents.PoliceUnitAgent",
                 new Object[]{25, 75}).start();
 
-            // Launch Biohazard Containment Unit
-            ac.createNewAgent("BiohazardCU-1",
-                "fr.umbb.sma.agents.BiohazardContainmentUnitAgent",
-                new Object[]{50, 75}).start();
+
 
             // Launch Support Agents
             ac.createNewAgent("MedicalCoordinator",

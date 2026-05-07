@@ -1,0 +1,442 @@
+{
+  "incidents": [
+    {
+      "id": "Sensor-2_1778056369577",
+      "type": "MEDICAL",
+      "severity": 9,
+      "locationX": 71,
+      "locationY": 72,
+      "reportedAt": "09:32:49.5815635",
+      "assignedUnit": "Ambulance-1",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": "Sensor-1_1778056389257",
+      "type": "BIOHAZARD",
+      "severity": 3,
+      "locationX": 15,
+      "locationY": 24,
+      "reportedAt": "09:33:09.2730491",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056392135",
+      "type": "BIOHAZARD",
+      "severity": 1,
+      "locationX": 79,
+      "locationY": 60,
+      "reportedAt": "09:33:12.137779",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056369104",
+      "type": "FIRE",
+      "severity": 3,
+      "locationX": 19,
+      "locationY": 26,
+      "reportedAt": "09:32:49.1907513",
+      "assignedUnit": "FireTruck-1",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": "Sensor-3_1778056373109",
+      "type": "BIOHAZARD",
+      "severity": 3,
+      "locationX": 44,
+      "locationY": 52,
+      "reportedAt": "09:32:53.1127144",
+      "assignedUnit": "BiohazardCU-1",
+      "status": "ASSIGNED"
+    },
+    {
+      "id": "Sensor-3_1778056388121",
+      "type": "CRYOGENIC_LEAK",
+      "severity": 8,
+      "locationX": 51,
+      "locationY": 41,
+      "reportedAt": "09:33:08.1241613",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056371148",
+      "type": "FIRE",
+      "severity": 1,
+      "locationX": 14,
+      "locationY": 25,
+      "reportedAt": "09:32:51.1527877",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056384592",
+      "type": "MEDICAL",
+      "severity": 1,
+      "locationX": 78,
+      "locationY": 67,
+      "reportedAt": "09:33:04.6123109",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056395295",
+      "type": "CRYOGENIC_LEAK",
+      "severity": 2,
+      "locationX": 22,
+      "locationY": 34,
+      "reportedAt": "09:33:15.2981335",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056372080",
+      "type": "MEDICAL",
+      "severity": 3,
+      "locationX": 76,
+      "locationY": 76,
+      "reportedAt": "09:32:52.0824069",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056385117",
+      "type": "BIOHAZARD",
+      "severity": 1,
+      "locationX": 49,
+      "locationY": 59,
+      "reportedAt": "09:33:05.1192083",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056376112",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 1,
+      "locationX": 44,
+      "locationY": 45,
+      "reportedAt": "09:32:56.1133092",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056391271",
+      "type": "FIRE",
+      "severity": 7,
+      "locationX": 22,
+      "locationY": 39,
+      "reportedAt": "09:33:11.273951",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056374583",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 7,
+      "locationX": 61,
+      "locationY": 75,
+      "reportedAt": "09:32:54.5862903",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056397144",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 2,
+      "locationX": 67,
+      "locationY": 78,
+      "reportedAt": "09:33:17.16606",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056381160",
+      "type": "BIOHAZARD",
+      "severity": 7,
+      "locationX": 12,
+      "locationY": 29,
+      "reportedAt": "09:33:01.1614563",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056385166",
+      "type": "BIOHAZARD",
+      "severity": 2,
+      "locationX": 26,
+      "locationY": 28,
+      "reportedAt": "09:33:05.1688409",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056383162",
+      "type": "BIOHAZARD",
+      "severity": 4,
+      "locationX": 28,
+      "locationY": 35,
+      "reportedAt": "09:33:03.1664475",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056394134",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 55,
+      "locationY": 40,
+      "reportedAt": "09:33:14.1364189",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056394642",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 75,
+      "locationY": 64,
+      "reportedAt": "09:33:14.6429569",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056397144",
+      "type": "MEDICAL",
+      "severity": 4,
+      "locationX": 57,
+      "locationY": 48,
+      "reportedAt": "09:33:17.1472613",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056370106",
+      "type": "MEDICAL",
+      "severity": 2,
+      "locationX": 50,
+      "locationY": 46,
+      "reportedAt": "09:32:50.1122578",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056387181",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 4,
+      "locationX": 29,
+      "locationY": 32,
+      "reportedAt": "09:33:07.2027689",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056389633",
+      "type": "CRYOGENIC_LEAK",
+      "severity": 6,
+      "locationX": 77,
+      "locationY": 75,
+      "reportedAt": "09:33:09.6333964",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-2_1778056379588",
+      "type": "BIOHAZARD",
+      "severity": 5,
+      "locationX": 77,
+      "locationY": 65,
+      "reportedAt": "09:32:59.5919334",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056391129",
+      "type": "CRYOGENIC_LEAK",
+      "severity": 7,
+      "locationX": 56,
+      "locationY": 41,
+      "reportedAt": "09:33:11.1330556",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056375153",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 6,
+      "locationX": 11,
+      "locationY": 35,
+      "reportedAt": "09:32:55.158711",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-1_1778056393286",
+      "type": "STRUCTURAL_COLLAPSE",
+      "severity": 10,
+      "locationX": 17,
+      "locationY": 27,
+      "reportedAt": "09:33:13.292331",
+      "assignedUnit": "",
+      "status": "PENDING"
+    },
+    {
+      "id": "Sensor-3_1778056379114",
+      "type": "CRYOGENIC_LEAK",
+      "severity": 4,
+      "locationX": 51,
+      "locationY": 50,
+      "reportedAt": "09:32:59.1163475",
+      "assignedUnit": "",
+      "status": "PENDING"
+    }
+  ],
+  "statistics": {
+    "total": 29,
+    "completed": 0,
+    "assigned": 3,
+    "pending": 26,
+    "aborted": 0,
+    "avgResponseTimeSeconds": 0
+  },
+  "agents": [
+    {
+      "name": "FireTruck-2",
+      "type": "FireTruck",
+      "status": "IDLE",
+      "x": 75,
+      "y": 25,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "FireTruck-1",
+      "type": "FireTruck",
+      "status": "RESPONDING",
+      "x": 25,
+      "y": 25,
+      "lastUpdate": 1778056369348
+    },
+    {
+      "name": "MedicalCoordinator",
+      "type": "MedicalCoordinator",
+      "status": "IDLE",
+      "x": 50,
+      "y": 10,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Sensor-1",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 20,
+      "y": 30,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Sensor-2",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 70,
+      "y": 70,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Dispatcher",
+      "type": "Dispatcher",
+      "status": "IDLE",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Police-2",
+      "type": "Police",
+      "status": "IDLE",
+      "x": 25,
+      "y": 75,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Police-1",
+      "type": "Police",
+      "status": "IDLE",
+      "x": 75,
+      "y": 75,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Sensor-3",
+      "type": "Sensor",
+      "status": "IDLE",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "Ambulance-1",
+      "type": "Ambulance",
+      "status": "RESPONDING",
+      "x": 50,
+      "y": 50,
+      "lastUpdate": 1778056369637
+    },
+    {
+      "name": "Ambulance-2",
+      "type": "Ambulance",
+      "status": "IDLE",
+      "x": 40,
+      "y": 80,
+      "lastUpdate": 1778056366840
+    },
+    {
+      "name": "BiohazardCU-1",
+      "type": "Biohazard",
+      "status": "RESPONDING",
+      "x": 50,
+      "y": 75,
+      "lastUpdate": 1778056373129
+    },
+    {
+      "name": "TrafficController",
+      "type": "TrafficController",
+      "status": "IDLE",
+      "x": 10,
+      "y": 50,
+      "lastUpdate": 1778056366840
+    }
+  ],
+  "recentEvents": [
+    "[09:32:49.1999188] INCIDENT_REPORTED: Incident[Sensor-1_1778056369104|FIRE|severity:3|(19,26)]",
+    "[09:32:49.3488112] INCIDENT_ASSIGNED: Sensor-1_1778056369104 -\u003e FireTruck-1 (response time: 0.16 sec)",
+    "[09:32:49.5815635] INCIDENT_REPORTED: Incident[Sensor-2_1778056369577|MEDICAL|severity:9|(71,72)]",
+    "[09:32:49.6381591] INCIDENT_ASSIGNED: Sensor-2_1778056369577 -\u003e Ambulance-1 (response time: 0.06 sec)",
+    "[09:32:50.1132872] INCIDENT_REPORTED: Incident[Sensor-3_1778056370106|MEDICAL|severity:2|(50,46)]",
+    "[09:32:51.1527877] INCIDENT_REPORTED: Incident[Sensor-1_1778056371148|FIRE|severity:1|(14,25)]",
+    "[09:32:52.0839138] INCIDENT_REPORTED: Incident[Sensor-2_1778056372080|MEDICAL|severity:3|(76,76)]",
+    "[09:32:53.1127144] INCIDENT_REPORTED: Incident[Sensor-3_1778056373109|BIOHAZARD|severity:3|(44,52)]",
+    "[09:32:53.1306549] INCIDENT_ASSIGNED: Sensor-3_1778056373109 -\u003e BiohazardCU-1 (response time: 0.02 sec)",
+    "[09:32:54.5862903] INCIDENT_REPORTED: Incident[Sensor-2_1778056374583|STRUCTURAL_COLLAPSE|severity:7|(61,75)]",
+    "[09:32:55.158711] INCIDENT_REPORTED: Incident[Sensor-1_1778056375153|STRUCTURAL_COLLAPSE|severity:6|(11,35)]",
+    "[09:32:56.1133092] INCIDENT_REPORTED: Incident[Sensor-3_1778056376112|STRUCTURAL_COLLAPSE|severity:1|(44,45)]",
+    "[09:32:59.1173281] INCIDENT_REPORTED: Incident[Sensor-3_1778056379114|CRYOGENIC_LEAK|severity:4|(51,50)]",
+    "[09:32:59.5919334] INCIDENT_REPORTED: Incident[Sensor-2_1778056379588|BIOHAZARD|severity:5|(77,65)]",
+    "[09:33:01.1614563] INCIDENT_REPORTED: Incident[Sensor-1_1778056381160|BIOHAZARD|severity:7|(12,29)]",
+    "[09:33:03.1664475] INCIDENT_REPORTED: Incident[Sensor-1_1778056383162|BIOHAZARD|severity:4|(28,35)]",
+    "[09:33:04.6123109] INCIDENT_REPORTED: Incident[Sensor-2_1778056384592|MEDICAL|severity:1|(78,67)]",
+    "[09:33:05.1202813] INCIDENT_REPORTED: Incident[Sensor-3_1778056385117|BIOHAZARD|severity:1|(49,59)]",
+    "[09:33:05.1688409] INCIDENT_REPORTED: Incident[Sensor-1_1778056385166|BIOHAZARD|severity:2|(26,28)]",
+    "[09:33:07.2027689] INCIDENT_REPORTED: Incident[Sensor-1_1778056387181|STRUCTURAL_COLLAPSE|severity:4|(29,32)]",
+    "[09:33:08.1241613] INCIDENT_REPORTED: Incident[Sensor-3_1778056388121|CRYOGENIC_LEAK|severity:8|(51,41)]",
+    "[09:33:09.2757569] INCIDENT_REPORTED: Incident[Sensor-1_1778056389257|BIOHAZARD|severity:3|(15,24)]",
+    "[09:33:09.6333964] INCIDENT_REPORTED: Incident[Sensor-2_1778056389633|CRYOGENIC_LEAK|severity:6|(77,75)]",
+    "[09:33:11.1330556] INCIDENT_REPORTED: Incident[Sensor-3_1778056391129|CRYOGENIC_LEAK|severity:7|(56,41)]",
+    "[09:33:11.273951] INCIDENT_REPORTED: Incident[Sensor-1_1778056391271|FIRE|severity:7|(22,39)]",
+    "[09:33:12.137779] INCIDENT_REPORTED: Incident[Sensor-2_1778056392135|BIOHAZARD|severity:1|(79,60)]",
+    "[09:33:13.292331] INCIDENT_REPORTED: Incident[Sensor-1_1778056393286|STRUCTURAL_COLLAPSE|severity:10|(17,27)]",
+    "[09:33:14.1384328] INCIDENT_REPORTED: Incident[Sensor-3_1778056394134|STRUCTURAL_COLLAPSE|severity:4|(55,40)]",
+    "[09:33:14.6452313] INCIDENT_REPORTED: Incident[Sensor-2_1778056394642|STRUCTURAL_COLLAPSE|severity:4|(75,64)]",
+    "[09:33:15.2981335] INCIDENT_REPORTED: Incident[Sensor-1_1778056395295|CRYOGENIC_LEAK|severity:2|(22,34)]",
+    "[09:33:17.1472613] INCIDENT_REPORTED: Incident[Sensor-3_1778056397144|MEDICAL|severity:4|(57,48)]",
+    "[09:33:17.1680875] INCIDENT_REPORTED: Incident[Sensor-2_1778056397144|STRUCTURAL_COLLAPSE|severity:2|(67,78)]"
+  ]
+}

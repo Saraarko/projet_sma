@@ -95,10 +95,6 @@ public class DispatcherAgent extends BaseAgent {
                 return new String[]{"MEDICAL"};
             case STRUCTURAL_COLLAPSE:
                 return new String[]{"FIRE", "RESCUE", "CROWD_CONTROL"};
-            case BIOHAZARD:
-                return new String[]{"BIOHAZARD_CONTAINMENT"};
-            case CRYOGENIC_LEAK:
-                return new String[]{"BIOHAZARD_CONTAINMENT", "FIRE"};
             default:
                 return new String[]{};
         }
